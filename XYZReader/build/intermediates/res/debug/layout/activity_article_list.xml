@@ -7,7 +7,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:background="?colorPrimary"
-        android:elevation="8dp">
+        android:elevation="4dp">
 
         <android.support.v7.widget.Toolbar
             android:id="@+id/toolbar"
@@ -22,7 +22,8 @@
     <android.support.v4.widget.SwipeRefreshLayout
         android:id="@+id/swipe_refresh_layout"
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        app:elevation="8dp">
 
         <android.support.v7.widget.RecyclerView
             android:id="@+id/recycler_view"
@@ -36,4 +37,4 @@
             android:paddingBottom="28dp" />
     </android.support.v4.widget.SwipeRefreshLayout>
 </android.support.design.widget.CoordinatorLayout>
-<!-- From: file:/C:/Users/Kathy/Downloads/xyzreader/XYZReader/src/main/res/layout/activity_article_list.xml -->
+<!-- From: file:/C:/Users/Tim/Downloads/Project5/XYZReader/src/main/res/layout/activity_article_list.xml -->
